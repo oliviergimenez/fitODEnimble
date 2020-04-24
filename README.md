@@ -382,7 +382,7 @@ library(basicMCMCplots)
 chainsPlot(samplesList)
 ```
 
-![](odeNimble_files/figure-html/unnamed-chunk-26-1.png)<!-- -->
+![](unnamed-chunk-26-1.png)<!-- -->
 
 Apart from the standard deviation of the observation error, the mixing is poor. This is what I had with `OpenBUGS` too, see [here](https://github.com/oliviergimenez/fitODEswithOpenBUGS/blob/master/README.md). 
 
@@ -481,7 +481,7 @@ Visualize traceplots and posterior distributions:
 chainsPlot(samplesList)
 ```
 
-![](odeNimble_files/figure-html/unnamed-chunk-31-1.png)<!-- -->
+![](unnamed-chunk-31-1.png)<!-- -->
 
 OK, that's disapointing, again. What if we use another sampler?
 
@@ -537,7 +537,7 @@ Visualize traceplots and posterior distributions:
 chainsPlot(samplesList)
 ```
 
-![](odeNimble_files/figure-html/unnamed-chunk-34-1.png)<!-- -->
+![](unnamed-chunk-34-1.png)<!-- -->
 
 Much slower, and doesn't improve mixing.
 
@@ -634,7 +634,7 @@ geom_point(size = 1.5) +
 ylab("Counts (thousands)")
 ```
 
-![](odeNimble_files/figure-html/unnamed-chunk-37-1.png)<!-- -->
+![](unnamed-chunk-37-1.png)<!-- -->
 
 Now on to `Nimble`, with the wraper first:
 
@@ -801,7 +801,7 @@ library(basicMCMCplots)
 chainsPlot(samplesList)
 ```
 
-![](odeNimble_files/figure-html/unnamed-chunk-47-1.png)<!-- -->
+![](unnamed-chunk-47-1.png)<!-- -->
 
 Summary estimates:
 
